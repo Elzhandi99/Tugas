@@ -1,6 +1,6 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <ProjectGuid>{54155C42-2935-4809-B775-D78152DD77F1}</ProjectGuid>
+        <ProjectGuid>{FA172134-A3D5-4AC0-AF4B-7CC99183F5BA}</ProjectGuid>
         <ProjectVersion>18.5</ProjectVersion>
         <FrameworkType>VCL</FrameworkType>
         <MainSource>Project1.dpr</MainSource>
@@ -124,7 +124,7 @@
                 </Source>
             </Delphi.Personality>
             <Deployment Version="3">
-                <DeployFile LocalName="G:\Win32\Debug\Project1.exe" Configuration="Debug" Class="ProjectOutput">
+                <DeployFile LocalName="Win32\Debug\Project1.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>Project1.exe</RemoteName>
                         <Overwrite>true</Overwrite>

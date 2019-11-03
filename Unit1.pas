@@ -11,24 +11,22 @@ type
     Label1: TLabel;
     Label2: TLabel;
     Edit1: TEdit;
+    Label3: TLabel;
     Edit2: TEdit;
+    Label4: TLabel;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    Label5: TLabel;
     Button1: TButton;
+    Label6: TLabel;
+    Edit5: TEdit;
+    Label7: TLabel;
+    Edit6: TEdit;
     Button2: TButton;
     Button3: TButton;
-    Button4: TButton;
-    Label3: TLabel;
-    Edit3: TEdit;
-    Label4: TLabel;
-    Label5: TLabel;
-    Label6: TLabel;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
-    procedure Button4Click(Sender: TObject);
-    procedure Button5Click(Sender: TObject);
-    procedure Button6Click(Sender: TObject);
-    procedure Label5Click(Sender: TObject);
-    procedure Label6Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -43,68 +41,50 @@ implementation
 {$R *.dfm}
 
 procedure TForm1.Button1Click(Sender: TObject);
-var a,b,c:real;
+var a,b,c,d,e:real;
+    g:string;
 begin
 a:=strtofloat(edit1.Text);
 b:=strtofloat(edit2.Text);
-c:=a+b;
-edit3.Text:=floattostr(c);
+c:=strtofloat(edit3.Text);
+d:=strtofloat(edit4.Text);
+e:=(a*35/100)+(b*25/100)+(c*20/100)+(d*20/100);
+edit5.Text:=floattostr(e);
+if (e>=90) and (e<=100) then
+begin
+  edit6.Text:='A';
+end else
+if (e>=75) and (e<=90) then
+begin
+  edit6.Text:='B';
+end else
+if (e>=60) and (e<=75) then
+begin
+  edit6.Text:='C';
+end else
+if (e>=45) and (e<=60) then
+begin
+  edit6.Text:='D';
+end else
+if e<=45 then
+begin
+  edit6.Text:='Program Ulang';
+end;
 
 end;
 
 procedure TForm1.Button2Click(Sender: TObject);
-var a,b,c:real;
 begin
-a:=strtofloat(edit1.Text);
-b:=strtofloat(edit2.Text);
-c:=a-b;
-edit3.Text:=floattostr(c);
-
-
+edit1.Text:='';
+edit2.Text:='';
+edit3.Text:='';
+edit4.Text:='';
+edit5.Text:='';
+edit6.Text:='';
+edit1.SetFocus
 end;
 
 procedure TForm1.Button3Click(Sender: TObject);
-var a,b,c:real;
-begin
-a:=strtofloat(edit1.Text);
-b:=strtofloat(edit2.Text);
-c:=a*b;
-edit3.Text:=floattostr(c);
-
-end;
-
-procedure TForm1.Button4Click(Sender: TObject);
-var a,b,c:real;
-begin
-a:=strtofloat(edit1.Text);
-b:=strtofloat(edit2.Text);
-c:=a/b;
-edit3.Text:=formatfloat('0.##',c);
-
-end;
-
-procedure TForm1.Button5Click(Sender: TObject);
-begin
-edit1.Text:='';
-edit2.Text:='';
-edit3.Text:='';
-edit1.SetFocus;
-end;
-
-procedure TForm1.Button6Click(Sender: TObject);
-begin
-close;
-end;
-
-procedure TForm1.Label5Click(Sender: TObject);
-begin
-edit1.Text:='';
-edit2.Text:='';
-edit3.Text:='';
-edit1.setfocus;
-end;
-
-procedure TForm1.Label6Click(Sender: TObject);
 begin
 close;
 end;

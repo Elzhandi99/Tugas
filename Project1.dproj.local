@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2019/10/29 22:29:16.000.842,=C:\Users\HP\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2019/10/29 22:30:27.000.230,J:\ANDI\FIKOM UNIKA\Semester VII\DELPHI\Delphi 10\Satu\Unit1.pas=C:\Users\HP\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2019/10/29 22:30:27.000.230,J:\ANDI\FIKOM UNIKA\Semester VII\DELPHI\Delphi 10\Satu\Unit1.dfm=C:\Users\HP\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2019/10/29 22:30:31.000.886,J:\ANDI\FIKOM UNIKA\Semester VII\DELPHI\Delphi 10\Satu\Project1.dproj=C:\Users\HP\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2019/10/29 23:08:55.000.081,G:\Project1.dproj=J:\ANDI\FIKOM UNIKA\Semester VII\DELPHI\Delphi 10\Satu\Project1.dproj</Transaction>
-    <Transaction>2019/10/29 23:22:19.000.117,J:\ANDI\FIKOM UNIKA\Semester VII\DELPHI\Delphi 10\Satu\Project1.dproj=G:\Project1.dproj</Transaction>
+    <Transaction>2019/10/29 23:33:51.000.224,=C:\Users\HP\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/29 23:34:07.000.064,J:\ANDI\FIKOM UNIKA\Semester VII\DELPHI\Delphi 10\Dua\Unit1.pas=C:\Users\HP\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/29 23:34:07.000.064,J:\ANDI\FIKOM UNIKA\Semester VII\DELPHI\Delphi 10\Dua\Unit1.dfm=C:\Users\HP\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/10/29 23:34:45.000.193,J:\ANDI\FIKOM UNIKA\Semester VII\DELPHI\Delphi 10\Dua\Project1.dproj=C:\Users\HP\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
   </Transactions>
 </BorlandProject>
